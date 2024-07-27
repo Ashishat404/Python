@@ -1,3 +1,5 @@
+#count the number enetered
+
 n = int(input("Enter any three or four digits number"))
 count=0
 while(n>0) :
