@@ -1,10 +1,10 @@
-# Escape Sequence , Print Statement , Comments 
+# Escape Sequences, Print Statements, Comments 
 
-# hi this is a single line comment 
+# hi this is a single-line comment 
 
 '''
 hi this is a
-multi line comment
+multi-line comment
 '''
 
 # this is also a multiline comment 
