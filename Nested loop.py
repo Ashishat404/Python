@@ -3,6 +3,6 @@ while i<=2:
     print(i,"outer loop is executed only once")
     j=1
     while j<=2:
-        print(j,"inner loop is executed till completion ")
+        print(j,"inner loop is executed unil to completion ")
         j+=1
     i+=1;
