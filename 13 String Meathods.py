@@ -60,3 +60,23 @@ print(str1.islower())
 # isprintable -> returns true if all the values given string are printable , if not then return false
 str1 = "Happy New Year\n"   # \n is not a printable character  
 print(str1.isprintable())
+
+# isspace -> returns true if and only if the string contains white spaces else returns false
+str1 = "    "
+print(str1.isspace())  # either we use tabs or space bar -> True 
+
+# istitle -> returns true if if the first letter of each word of the string is capitalized, else it returns false
+str1 ="World Health Organization"
+print(str1.istitle())
+
+# startswith -> if your string starts with the given characters 
+str1 = "Python is a Interpreted Language"
+print(str1.startswith("Python"))
+
+# swapcase -> changes the character casing of the string , uppercase to lowercase and vice versa
+str1 = "Python is a Interpreted Language"
+print(str1.swapcase())
+
+# title -> its a meathod which capitalizes each letter of the word within the string 
+str1 = "His name is dan. he is a honest man"
+print(str1.title())
