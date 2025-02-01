@@ -31,3 +31,32 @@ print(a.count("Ashish"))
 # replies with either true or false
 str1 = "Welcome to Console"
 print(str1.endswith("!!!"))
+
+str1 = "Welcome to Console"
+print(str1.endswith("to",4,10))
+
+# find -> this searches for the first occurrence
+str1 = "He,s name is dan. he is a honest man"
+print(str1.find("is"))
+
+# index -> if not found it raises an exception
+#  ValueError: substring not found 
+str1 = "He,s name is dan. he is a honest man"
+# print(str1.index("iss"))    # will surely give error iss not present 
+
+# isalnum -> to check weather the series is alpha numeric A-Z , a-z , 0-9 , if any other are present it returns false
+str1= "WelcomeToTheConsole"
+print(str1.isalnum())
+
+# isalpha -> if the entire string only consists of A-Z , a-z 
+# if the punctuations like(0-9) are present then returns false
+str1 = "Welcome"
+print(str1.isalpha())
+
+# islower -> returns true if all characters are in smallcase , Otherwise False
+str1 = "Welcome"
+print(str1.islower())
+
+# isprintable -> returns true if all the values given string are printable , if not then return false
+str1 = "Happy New Year\n"   # \n is not a printable character  
+print(str1.isprintable())
