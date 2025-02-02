@@ -9,3 +9,11 @@ print(timestamp)
 
 timestamp = time.strftime('%M')
 print(timestamp)
+timestamp = time.strftime('%S')
+print(timestamp)
+
+if  time.strftime('%H') < 12:
+    print("Good Morning")
+    
+else:
+    print("Good Afternoon")
