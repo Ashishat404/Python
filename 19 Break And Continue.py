@@ -7,3 +7,10 @@ for i in range(12):
 
 # break -> loop ko chodkar nikal jao
 # continue -> iteration ko chodkar nikal jao
+
+i=0
+while True:
+    print(i)
+    i = i+1
+    if(i%100 == 0):
+     break
