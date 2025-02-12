@@ -9,4 +9,17 @@ def isGreater(a,b):
     print("Second number is greater")
          
 def isLesser(a,b):
-    pass 
+    pass      # The pass resolves the indentation error which can also be defined later , it's a user-defined function
+
+a= 3
+b= 5
+# if(a>b):
+#     print("First number is greater")
+# else:
+#     print("Second number is greater")  --> This prints the greater number but instead of this we can write this
+    
+# gmean1 = a*b/(a+b)
+# print(gmean1)         --> Instead of writing this we can write 
+calculateGmean(a,b)
+isGreater(a,b)
+
