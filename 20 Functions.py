@@ -23,3 +23,14 @@ b= 5
 calculateGmean(a,b)
 isGreater(a,b)
 
+c=8
+d=7
+# if(c>d):
+#     print("FIrst number is greater")
+# else:
+#     print("Second number is greater")
+
+# gmean2= c*d/(c+d)
+# print(gmean2)
+calculateGmean(c,d)
+isGreater(c,d)
