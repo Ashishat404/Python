@@ -11,3 +11,8 @@ print(myTuple[-1])  # Output : [1, 2, 3], Print tuple from last
 print("\nDeleting values in tuple")
 # del myTuple[0]      # this will raise an error
 # myTuple.remove(3.14) # this alse will raise an error
+# Instead you can reasign the value in the tuple
+myTuple = (2, True, 3.14, [1, 2, 3])
+
+# Updating tuple
+print("\nUpdating tuple")
