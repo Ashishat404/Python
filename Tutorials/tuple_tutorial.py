@@ -31,3 +31,4 @@ print(myTuple * 3)   # Output : (2, "Welcome", 3.14, [1, 2, 3], 2, "Welcome", 3.
 print("\n Membership check: ")
 print(3.14 in myTuple)   # Output : True
 print(3 in myTuple)      # Output : False
+#Tuple packing and unpacking
