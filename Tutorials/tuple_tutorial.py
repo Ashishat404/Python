@@ -41,3 +41,4 @@ print("\nBuilt in Tuple functions")
 myTuple2 = (10, 75, 85, 69, 69, 88, 90)
 print("Count of 69 in tuple : ",
 myTuple2.count(69))   # Output : 2
+print("Index of 88 in tuple : ", 
