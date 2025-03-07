@@ -47,3 +47,4 @@ print("Sum of all elements in tuple 2 is
 " ,sum(myTuple2))  # Output : 405
 print("List in sorted order : ", 
 sorted(myTuple2))
+print(max(myTuple2))  # Output : 90
