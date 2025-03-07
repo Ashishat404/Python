@@ -48,3 +48,4 @@ print("Sum of all elements in tuple 2 is
 print("List in sorted order : ", 
 sorted(myTuple2))
 print(max(myTuple2))  # Output : 90
+print(min(myTuple2))  # Output : 10
