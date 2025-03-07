@@ -46,3 +46,4 @@ myTuple2.index(88))   # Output : 3
 print("Sum of all elements in tuple 2 is 
 " ,sum(myTuple2))  # Output : 405
 print("List in sorted order : ", 
+sorted(myTuple2))
