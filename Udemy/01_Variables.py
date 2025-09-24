@@ -6,4 +6,5 @@ cgpa = 4.55 # float
 
 # Rule of defining a variable in Python  
 # Variable names must start with a letter (a-z, A-Z) or an underscore (_).
-# 
+#  They can contain letters, numbers, and underscores.
+
