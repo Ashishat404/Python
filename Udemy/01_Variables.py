@@ -3,3 +3,7 @@
 age = 34 # integer
 name = "Ashish" # string
 cgpa = 4.55 # float
+
+# Rule of defining a variable in Python  
+# Variable names must start with a letter (a-z, A-Z) or an underscore (_).
+# 
