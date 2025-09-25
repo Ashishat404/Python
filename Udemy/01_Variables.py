@@ -10,3 +10,5 @@ cgpa = 4.55 # float
 # Variable names are case-sensitive (age and Age are different).
 # Avoid using Python keywords (e.g., if, for, while) as variable names.
 
+# 34age = 4 # Invalid because variable cannot start with a number
+
