@@ -11,4 +11,4 @@ cgpa = 4.55 # float
 # Avoid using Python keywords (e.g., if, for, while) as variable names.
 
 # 34age = 4 # Invalid because variable cannot start with a number
-
+age = 32 # Valid because variable can start with a number 
