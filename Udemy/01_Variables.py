@@ -12,3 +12,5 @@ cgpa = 4.55 # float
 
 # 34age = 4 # Invalid because variable cannot start with a number
 age = 32 # Valid because variable can start with a number 
+# a$$ge = 45 # Invlaid because variables cannot contain special characters other than _
+__age = 34
