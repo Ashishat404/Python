@@ -5,4 +5,5 @@
 #     Strings (str): Text data enclosed in quotes (e.g., "Hello", 'Python').
 #     Booleans (bool): Represents True or False.
 #     Lists: Ordered, mutable collections (e.g., [1, 2, 3]).
+#     Tuples: Ordered, immutable collections (e.g., (1, 2, 3)).
 #
