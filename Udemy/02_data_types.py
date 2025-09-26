@@ -9,3 +9,6 @@
 #     Sets: Unordered collections of unique elements (e.g., {1, 2, 3}).
 #     Dictionaries: Key-value pairs (e.g., {"name": "Alice", "age": 25}).
 
+age = 3 
+print(age)
+print(type(age))
