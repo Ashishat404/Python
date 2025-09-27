@@ -15,3 +15,4 @@ print(type(age))
 
 cgpa = 8.2
 print(cgpa)
+print(type(cgpa))
