@@ -20,3 +20,7 @@ print(type(cgpa))
 name = "Ashish"
 print(name)
 print(type(name))
+
+
+is_completed = True # can also be False
+print(is_completed)
