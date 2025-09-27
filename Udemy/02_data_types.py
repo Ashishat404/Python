@@ -19,3 +19,4 @@ print(type(cgpa))
 
 name = "Ashish"
 print(name)
+print(type(name))
