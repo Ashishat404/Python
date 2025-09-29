@@ -8,3 +8,6 @@ print(type(a))
 
 print(b)
 print(type(b))
+
+# convert b into an integer 
+    #now converting string to an integer using int function
