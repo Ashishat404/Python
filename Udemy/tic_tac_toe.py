@@ -9,3 +9,9 @@
 # 6. Alternate between players (X and O)
 # 7. Check for draw
 # 8. Repeat until game ends
+
+
+def greet():
+#    """Greet the players and explain the rules"""
+    print("Welcome to Tic Tac Toe!")
+    print("Player 1 is 'X' and Player 2 is 'O'.")
