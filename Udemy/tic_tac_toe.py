@@ -15,3 +15,12 @@ def greet():
 #    """Greet the players and explain the rules"""
     print("Welcome to Tic Tac Toe!")
     print("Player 1 is 'X' and Player 2 is 'O'.")
+
+def print_board(board):
+    """Display the current board state"""
+    print("\n")
+    for i in range(3):
+        print(f" {board[i][0]} | {board[i][1]} | {board[i][2]} ")
+        if i < 2:
+            print("-----------")
+    print("\n")
