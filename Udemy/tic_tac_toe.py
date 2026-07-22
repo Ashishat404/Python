@@ -24,3 +24,10 @@ def print_board(board):
         if i < 2:
             print("-----------")
     print("\n")
+
+def check_winner(board, player):
+    """Check if the player has won"""
+    # Check rows
+    for row in board:
+        if all(cell == player for cell in row):
+            return True
