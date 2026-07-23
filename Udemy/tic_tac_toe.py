@@ -63,3 +63,5 @@ def get_player_move(board, player):
             return row, col
         except ValueError:
             print("Enter a valid number!")
+def play_game():
+    """Main game loop"""
