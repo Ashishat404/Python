@@ -56,3 +56,10 @@ def get_player_move(board, player):
             if position < 1 or position > 9:
                 print("Enter number between 1-9!")
                 continue
+            row, col = (position - 1) // 3, (position - 1) % 3
+            if board[row][col] != " ":
+                print("Position already taken!")
+                continue
+            return row, col
+        except ValueError:
+            print("Enter a valid number!")
