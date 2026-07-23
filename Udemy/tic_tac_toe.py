@@ -47,3 +47,12 @@ def check_winner(board, player):
 def is_board_full(board):
     """Check if board is full (draw condition)"""
     return all(cell != " " for row in board for cell in row)
+
+def get_player_move(board, player):
+    """Get valid move from player"""
+    while True:
+        try:
+            position = int(input(f"Player {player}, enter position (1-9): "))
+            if position < 1 or position > 9:
+                print("Enter number between 1-9!")
+                continue
