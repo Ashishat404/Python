@@ -65,3 +65,5 @@ def get_player_move(board, player):
             print("Enter a valid number!")
 def play_game():
     """Main game loop"""
+       board = [[" " for _ in range(3)] for _ in range(3)]
+    current_player = "X"
