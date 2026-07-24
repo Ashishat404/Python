@@ -77,4 +77,9 @@ def play_game():
         # Get move
         row, col = get_player_move(board, current_player)
         board[row][col] = current_player
-        
+                
+        # Check for winner
+        if check_winner(board, current_player):
+            print_board(board)
+            print(f"🎉 Player {current_player} wins!")
+            break
