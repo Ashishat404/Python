@@ -67,3 +67,14 @@ def play_game():
     """Main game loop"""
        board = [[" " for _ in range(3)] for _ in range(3)]
     current_player = "X"
+
+    print("=== TIC TAC TOE ===")
+    print("Positions: 1-3 (top), 4-6 (middle), 7-9 (bottom)")
+    
+    while True:
+        print_board(board)
+        
+        # Get move
+        row, col = get_player_move(board, current_player)
+        board[row][col] = current_player
+        
