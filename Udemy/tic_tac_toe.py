@@ -63,6 +63,7 @@ def get_player_move(board, player):
             return row, col
         except ValueError:
             print("Enter a valid number!")
+            
 def play_game():
     """Main game loop"""
        board = [[" " for _ in range(3)] for _ in range(3)]
@@ -82,4 +83,10 @@ def play_game():
         if check_winner(board, current_player):
             print_board(board)
             print(f"🎉 Player {current_player} wins!")
+            break
+
+        # Check for draw
+        if is_board_full(board):
+            print_board(board)
+            print("It's a draw!")
             break
