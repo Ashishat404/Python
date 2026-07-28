@@ -8,3 +8,10 @@ def slugify(text):
 
     # This flag keeps track of whether the last character added was a dash
     last_was_dash = False
+    # Go through every character in the string
+    for char in text:
+
+        # If the character is a letter or a digit, keep it
+        if char.isalnum():
+            result.append(char)
+            last_was_dash = False
