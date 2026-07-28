@@ -19,4 +19,7 @@ def slugify(text):
         # If the character is not a letter or digit
         # (space, punctuation, symbols, etc.)
         else:
-
+            # Add only one dash for consecutive special characters
+            if not last_was_dash:
+                result.append("-")
+                last_was_dash = True
