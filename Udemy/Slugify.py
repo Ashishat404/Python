@@ -15,3 +15,8 @@ def slugify(text):
         if char.isalnum():
             result.append(char)
             last_was_dash = False
+
+        # If the character is not a letter or digit
+        # (space, punctuation, symbols, etc.)
+        else:
+
