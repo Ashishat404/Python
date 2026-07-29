@@ -26,3 +26,8 @@ def slugify(text):
 
     # Join the list into a string
     slug = "".join(result)
+
+    # Remove dashes from the beginning and end
+    slug = slug.strip("-")
+
+    return slug
