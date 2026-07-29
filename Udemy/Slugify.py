@@ -31,3 +31,9 @@ def slugify(text):
     slug = slug.strip("-")
 
     return slug
+
+
+# -------------------- Test Cases --------------------
+
+print(slugify("hey you are good"))
+# Output: hey-you-are-good
