@@ -23,3 +23,6 @@ def slugify(text):
             if not last_was_dash:
                 result.append("-")
                 last_was_dash = True
+
+    # Join the list into a string
+    slug = "".join(result)
