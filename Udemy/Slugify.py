@@ -37,3 +37,9 @@ def slugify(text):
 
 print(slugify("hey you are good"))
 # Output: hey-you-are-good
+
+print(slugify("Hello, World!"))
+# Output: hello-world
+
+print(slugify("Python & Django @ 2025"))
+# Output: python-django-2025
