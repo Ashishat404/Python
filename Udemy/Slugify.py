@@ -49,3 +49,10 @@ print(slugify("   multiple    spaces   "))
 
 print(slugify("This_is_a_test"))
 # Output: this-is-a-test
+
+print(slugify("C++ Programming Language"))
+# Output: c-programming-language
+
+print(slugify("100% Guaranteed!!!"))
+# Output: 100-guaranteed
+
