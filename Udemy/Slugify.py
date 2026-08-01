@@ -43,3 +43,9 @@ print(slugify("Hello, World!"))
 
 print(slugify("Python & Django @ 2025"))
 # Output: python-django-2025
+
+print(slugify("   multiple    spaces   "))
+# Output: multiple-spaces
+
+print(slugify("This_is_a_test"))
+# Output: this-is-a-test
