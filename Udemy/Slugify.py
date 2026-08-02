@@ -56,3 +56,8 @@ print(slugify("C++ Programming Language"))
 print(slugify("100% Guaranteed!!!"))
 # Output: 100-guaranteed
 
+print(slugify("What's your name?"))
+# Output: what-s-your-name
+
+print(slugify("John.Doe@example.com"))
+# Output: john-doe-example-com
