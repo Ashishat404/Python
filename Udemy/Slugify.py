@@ -61,3 +61,11 @@ print(slugify("What's your name?"))
 
 print(slugify("John.Doe@example.com"))
 # Output: john-doe-example-com
+
+
+print(slugify(""))
+# Output: ""
+
+print(slugify("----"))
+# Output: ""
+
