@@ -69,3 +69,6 @@ print(slugify(""))
 print(slugify("----"))
 # Output: ""
 
+print(slugify("123456"))
+# Output: 123456
+
