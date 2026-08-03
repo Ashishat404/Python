@@ -72,3 +72,5 @@ print(slugify("----"))
 print(slugify("123456"))
 # Output: 123456
 
+print(slugify("Hello---World"))
+# Output: hello-world
