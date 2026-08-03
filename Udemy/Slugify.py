@@ -74,3 +74,7 @@ print(slugify("123456"))
 
 print(slugify("Hello---World"))
 # Output: hello-world
+
+
+print(slugify("AI/ML\\Data Science"))
+# Output: ai-ml-data-science
