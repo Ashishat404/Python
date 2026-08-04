@@ -10,3 +10,5 @@ print(my_set & my_set2)  # Output : {4, 5}
 # difference of sets
 print(my_set - my_set2)  # Output : {1, 2, 3}
 
+# symmetric difference of sets
+print(my_set ^ my_set2)  # Output : {1, 2, 3, 6, 7, 8}
