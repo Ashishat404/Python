@@ -15,3 +15,7 @@ print(my_set ^ my_set2)  # Output : {1, 2, 3, 6, 7, 8}
 
 # symmetric difference of sets
 print(my_set ^ my_set2)  # Output : {1, 2, 3, 6, 7, 8}
+
+# subset of sets
+print(my_set <= my_set2)  # Output : True
+print(my_set.issubset(my_set2))  # Output : True
