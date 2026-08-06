@@ -23,3 +23,7 @@ print(my_set.issubset(my_set2))  # Output : True
 # superset of sets
 print(my_set >= my_set2)  # Output : False
 print(my_set.issuperset(my_set2))  # Output : False
+
+
+# length of set
+print(len(my_set))  # Output : 5
