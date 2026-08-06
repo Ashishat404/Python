@@ -31,3 +31,6 @@ print(len(my_set))  # Output : 5
 # clearing set
 my_set.clear()  # Output : set()
 print(my_set)
+
+deleting set
+del my_set
