@@ -27,3 +27,7 @@ print(my_set.issuperset(my_set2))  # Output : False
 
 # length of set
 print(len(my_set))  # Output : 5
+
+# clearing set
+my_set.clear()  # Output : set()
+print(my_set)
