@@ -32,5 +32,5 @@ print(len(my_set))  # Output : 5
 my_set.clear()  # Output : set()
 print(my_set)
 
-deleting set
+#deleting set
 del my_set
