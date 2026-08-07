@@ -34,3 +34,6 @@ print(my_set)
 
 #deleting set
 del my_set
+
+#remove element from set
+my_set2.remove(4)
