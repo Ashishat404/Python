@@ -37,3 +37,7 @@ del my_set
 
 #remove element from set
 my_set2.remove(4)
+
+# copy set
+my_set3 = my_set2.copy()
+print(my_set3)
