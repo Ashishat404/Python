@@ -43,4 +43,4 @@ my_set3 = my_set2.copy()
 print(my_set3)
 
 #membership testing 
-print(4 in my_set2) 
+print(4 in my_set2) #Output : True
