@@ -11,3 +11,5 @@ f.close()
 
 # appending a file
 f = open("test.txt", "a")
+f.write("\nHello World")
+f.close()
