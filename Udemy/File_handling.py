@@ -13,3 +13,7 @@ f.close()
 f = open("test.txt", "a")
 f.write("\nHello World")
 f.close()
+
+# deleting a file
+import os
+os.remove("test.txt")
