@@ -17,3 +17,6 @@ f.close()
 # deleting a file
 import os
 os.remove("test.txt")
+
+# checking if a file exists
+import os
