@@ -20,3 +20,6 @@ os.remove("test.txt")
 
 # checking if a file exists
 import os
+
+if os.path.exists("test.txt"):
+    print("File exists")
