@@ -23,7 +23,10 @@ import os
 
 if os.path.exists("test.txt"):
     print("File exists")
-
 else:
     print("File does not exist")
     
+#Renaming a File
+import os 
+if os.path.exists("test"):
+    print("file exists")
