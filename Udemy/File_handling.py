@@ -34,3 +34,5 @@ else:
     print("file does not exist")
 
 #Renaming a file 
+import os 
+os.rename("test.txt, "test1.txt")
