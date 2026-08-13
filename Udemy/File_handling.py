@@ -30,3 +30,7 @@ else:
 import os 
 if os.path.exists("test"):
     print("file exists")
+else:
+    print("file does not exist")
+
+#Renaming a file 
