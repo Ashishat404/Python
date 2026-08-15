@@ -45,3 +45,8 @@ os.mkdir("test4")
 # removing files in a directory
 import os 
 os.mkdir("test4")
+
+#listening files in directory 
+import os
+files = os.listendir()
+print(files)
