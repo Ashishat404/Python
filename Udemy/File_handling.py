@@ -41,3 +41,7 @@ shutil.move("test2.txt", "test3.txt")
 # creating a directory
 import os
 os.mkdir("test4")
+
+# removing files in a directory
+import os 
+os.mkdir("test4")
