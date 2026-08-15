@@ -24,15 +24,20 @@ if os.path.exists("test.txt"):
     print("File exists")
 else:
     print("File does not exist")
-    
-#Renaming a file 
-import os 
-os.rename("test.txt, "test1.txt")
 
-#copying a file
-import shutil
-shutil.copy("test1.txt" , "test2.txt")
 
-#moving a file
+# renaming a file
+import os
+os.rename("test.txt", "test1.txt")
+
+# copying a file
 import shutil
-shutil.move("test2.txt" , "test3.txt")
+shutil.copy("test1.txt", "test2.txt")
+
+# moving a file
+import shutil
+shutil.move("test2.txt", "test3.txt")
+
+# creating a directory
+import os
+os.mkdir("test4")
