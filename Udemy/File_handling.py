@@ -50,3 +50,5 @@ os.mkdir("test4")
 import os
 files = os.listendir()
 print(files)
+
+#getting the current working directory
