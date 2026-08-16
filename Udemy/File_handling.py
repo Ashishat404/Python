@@ -46,9 +46,10 @@ os.mkdir("test4")
 import os 
 os.mkdir("test4")
 
-#listening files in directory 
+#Listening files in directory 
 import os
 files = os.listendir()
 print(files)
 
-#getting the current working directory
+#Getting the current working directory
+import os
