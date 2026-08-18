@@ -62,3 +62,6 @@ os.chdir("path/to/directory")
 
 # Getting the size of a file
 import os
+size = os.path.getsize("test1.txt")
+print(size)
+
