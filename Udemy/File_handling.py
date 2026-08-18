@@ -59,3 +59,5 @@ print(cwd)
 #Changing the current working dir
 import os
 os.chdir("path/to/directory")
+
+# Getting the size of a file
