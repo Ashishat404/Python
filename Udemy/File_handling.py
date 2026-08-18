@@ -57,3 +57,5 @@ cwd = os.getcwd()
 print(cwd) 
 
 #Changing the current working dir
+import os
+os.chdir("path/to/directory")
