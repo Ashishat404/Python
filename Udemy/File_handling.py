@@ -67,4 +67,4 @@ print(size)
 
 # getting the creation time of a file
 import os
-
+ctime = os.path.getctime("test1.txt")
