@@ -65,5 +65,6 @@ import os
 size = os.path.getsize("test1.txt")
 print(size)
 
-
 # getting the creation time of a file
+import os
+
