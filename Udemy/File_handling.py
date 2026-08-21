@@ -72,3 +72,5 @@ print(ctime)
 
 # getting the modification time of a file
 import os
+mtime = os.path.getmtime("test1.txt")
+print(mtime)
