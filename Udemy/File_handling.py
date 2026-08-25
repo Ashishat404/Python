@@ -79,3 +79,8 @@ print(mtime)
 import os
 atime = os.path.getmtime("test1.txt")
 print(atime)
+
+# getting the path of a file
+import os 
+atime = os.path.getatime("test1.txt")
+print(atime)
