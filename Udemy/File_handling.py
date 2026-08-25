@@ -74,3 +74,8 @@ print(ctime)
 import os
 mtime = os.path.getmtime("test1.txt")
 print(mtime)
+
+# getting the access time of the file 
+import os
+atime = os.path.getmtime("test1.txt")
+print(atime)
