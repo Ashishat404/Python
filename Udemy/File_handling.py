@@ -84,3 +84,8 @@ print(atime)
 import os 
 atime = os.path.getatime("test1.txt")
 print(atime)
+
+# getting the extension of a file
+import os
+ext = os.path.splitext("test1.txt")
+print(ext)
