@@ -89,3 +89,8 @@ print(atime)
 import os
 ext = os.path.splitext("test1.txt")
 print(ext)
+
+# getting the base name of a file
+import os
+base = os.path.basename("test1.txt")
+print(base)
