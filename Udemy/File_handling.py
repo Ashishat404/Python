@@ -94,3 +94,6 @@ print(ext)
 import os
 base = os.path.basename("test1.txt")
 print(base)
+
+#getting the name directory of file 
+import os
