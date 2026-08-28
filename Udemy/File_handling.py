@@ -98,3 +98,4 @@ print(base)
 #getting the directory name of file 
 import os
 dir = os.path.basename("test1.txt")
+print(dir)
