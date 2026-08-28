@@ -95,5 +95,6 @@ import os
 base = os.path.basename("test1.txt")
 print(base)
 
-#getting the name directory of file 
+#getting the directory name of file 
 import os
+dir = os.path.basename("test1.txt")
