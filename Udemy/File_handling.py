@@ -51,12 +51,12 @@ import os
 files = os.listendir()
 print(files)
 
-#Getting the current working directory
+# Getting the current working directory
 import os
 cwd = os.getcwd()
 print(cwd) 
 
-#Changing the current working dir
+# Changing the current working dir
 import os
 os.chdir("path/to/directory")
 
@@ -95,7 +95,7 @@ import os
 base = os.path.basename("test1.txt")
 print(base)
 
-#getting the directory name of file 
+# getting the directory name of file 
 import os
 dir = os.path.dirname("test1.txt")
 print(dir)
