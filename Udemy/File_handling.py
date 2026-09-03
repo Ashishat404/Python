@@ -102,3 +102,4 @@ print(dir)
 
 # getting the size of directory
 import os
+ctime = os.path.getctime()
