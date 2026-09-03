@@ -101,3 +101,4 @@ dir = os.path.dirname("test1.txt")
 print(dir)
 
 # getting the size of directory
+import os
