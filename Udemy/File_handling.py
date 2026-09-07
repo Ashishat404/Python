@@ -103,3 +103,5 @@ print(dir)
 # getting the size of directory
 import os
 ctime = os.path.getctime("text1.txt")
+
+# getting the creation time of a directory 
