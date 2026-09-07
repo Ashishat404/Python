@@ -107,3 +107,4 @@ ctime = os.path.getctime("text1.txt")
 # getting the creation time of a directory 
 import os
 ctime = os.path.getctime("text1.txt") 
+print(ctime) 
