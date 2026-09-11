@@ -110,3 +110,4 @@ ctime = os.path.getctime("text1.txt")
 print(ctime) 
 
 # getting the modification time of a directory
+import os
