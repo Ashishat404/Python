@@ -1,15 +1,15 @@
-#creating a file
+#Creating a file
 
 f= open("test.txt" , "w") 
 f.write("Welcome to python programming") 
 f.close() 
 
-# reading a file
+# Reading a file
 f = open("test.txt", "r")
 print(f.read())
 f.close()
 
-# appending a file
+# Appending a file
 f = open("test.txt", "a")
 f.write("\nHello World")
 f.close()
