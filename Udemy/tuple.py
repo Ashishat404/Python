@@ -15,7 +15,6 @@ print("\nDeleting values in tuple")
 # Instead you can reasign the value in the tuple
 myTuple = (2, True, 3.14, [1, 2, 3])
 
-
 # Updating tuple
 print("\nUpdating tuple")
 # can bedone by converting the tuple to list and then updating the list
