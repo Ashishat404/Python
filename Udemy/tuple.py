@@ -28,3 +28,5 @@ print("\nBasic tuple operations")
 print("Length of tuple : ", len(myTuple))    # Output : 4
 print("\n Adding Tuple: ")
 print(myTuple + (4, 5, 6))  # Output : (2, "Welcome", 3.14, [1, 2, 3], 4, 5, 6)
+print("\n Repetation of Tuple: ")
+print(myTuple * 3)   # Output : (2, "Welcome", 3.14, [1, 2, 3], 2, "Welcome", 3.14, [1, 2, 3], 2, "Welcome", 3.14, [1, 2, 3])
