@@ -22,3 +22,6 @@ myTuple = list(myTuple)
 myTuple[1] = "Welcome"
 myTuple = tuple(myTuple)
 print(myTuple)       # Output : (2, "Welcome", 3.14, [1, 2, 3])
+
+# Basic tuple operations
+print("\nBasic tuple operations")
