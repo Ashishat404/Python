@@ -1,5 +1,6 @@
 
 # Variables And Data Types
+
 a= complex(1,2)
 print(a)
 b=True
