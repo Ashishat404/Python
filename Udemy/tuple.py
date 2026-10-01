@@ -36,3 +36,4 @@ print(3 in myTuple)      #output : False
 
 #Tuple packing and unpacking
 print("\nTuple packing and unpacking")
+myTuple = (1, "Hello", True, 3.14, [1, 2, 3])
