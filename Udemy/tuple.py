@@ -42,3 +42,4 @@ print(x, y, z, w, v)    # Output : 1 Hello True 3.14 [1, 2, 3]
 
 # Built in Tuple functions
 print("\nBuilt in Tuple functions")
+myTuple2 = (10, 75, 85, 69, 69, 88, 90)
