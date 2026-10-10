@@ -45,3 +45,4 @@ print("\nBuilt in Tuple functions")
 myTuple2 = (10, 75, 85, 69, 69, 88, 90)
 print("Count of 69 in tuple : ", myTuple2.count(69))   # Output : 2
 print("Index of 88 in tuple : ", myTuple2.index(88))   # Output : 3 
+print("Sum of all elements in tuple 2 is",sum(myTuple))
