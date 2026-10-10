@@ -34,7 +34,7 @@ print("\n Membership Check:")
 print(3.14 in myTuple)   #output : True
 print(3 in myTuple)      #output : False
 
-#Tuple packing and unpacking
+# Tuple packing and unpacking
 print("\nTuple packing and unpacking")
 myTuple = (1, "Hello", True, 3.14, [1, 2, 3])
 x, y, z, w, v = myTuple
