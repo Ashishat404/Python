@@ -30,3 +30,12 @@ The print() function is used to display output.
 •
 # This is a single
 '''
+
+print("Hey how are you\nI am good\\newline")
+print("Hello \" World")
+
+# Print Statement
+print("This is a print statement.")
+# print('Hello World',"Harry",5, sep="/")
+print('Hello World', end="..")
+print('Harry', end="//")
