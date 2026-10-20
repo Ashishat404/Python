@@ -14,7 +14,7 @@ print("a ** b = ", a ** b)
 
 
 
-# Conditional Operators () 
+# Conditional Operators (Always Returns Boolean) 
 print(a>4)
 print(a<4)
 print(a<=4)
